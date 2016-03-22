@@ -39,7 +39,7 @@ void setup() {
   11
     ));
   controller.getSimulator().setFieldSize(105f, 68f);
-  controller.getPressureMeasurements();
+  
   controller.getMatchDetails();
   controller.getball();
   controller.getPlayers();
@@ -47,6 +47,7 @@ void setup() {
   controller.validateData();
 
   //######### do some calculations
+  //controller.getPressureMeasurements();
   //controller.setBallTeamDistance();
   //controller.getOpponents();
   //controller.setIndividualDistance();
